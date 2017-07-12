@@ -11,6 +11,9 @@ module.exports = {
   target: 'node',
    externals: [nodeExternals({
      whitelist: [
+       /^@angular\/material/,
+       /^@ngx-translate\/core/,
+       /^@ngx-translate\/http-loader/,
        /^@angular\/material/
      ]
    })],
