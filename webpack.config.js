@@ -14,7 +14,6 @@ module.exports = {
        /^@angular\/material/,
        /^@ngx-translate\/core/,
        /^@ngx-translate\/http-loader/,
-       /^@angular\/material/
      ]
    })],
   node: {
